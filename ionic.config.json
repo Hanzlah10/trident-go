@@ -1,0 +1,7 @@
+{
+  "name": "trident-go",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
