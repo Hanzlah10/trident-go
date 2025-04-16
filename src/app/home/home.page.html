@@ -7,7 +7,7 @@
       </div>
     </nav>
     <!-- Main Content -->
-    <div class="w-full py-2 flex px-8 lg:px-0 items-center justify-center max-w-[600px] mx-auto">
+    <div class="w-full py-1 flex px-8 lg:px-0 items-center justify-center max-w-[600px] mx-auto">
       <!-- Main content column -->
       <div class="w-full">
         <div class="flex flex-col items-center max-w-3xl mx-auto">
@@ -74,15 +74,28 @@
             <!-- Right Section -->
             <div class="flex flex-col items-end text-gold font-vietnam text-right">
               <div class="text-sm ">Golden Price worth</div>
-              <div
-                class="text-2xl sm:text-4xl font-bold bg-gold-gradient bg-clip-text text-transparent text-shadow-yellow-200 text-shadow-3xl">
-                $20,000
+              <div class="relative inline-block">
+                <!-- Shadow layer -->
+                <span
+                  class="absolute inset-0 text-2xl sm:text-4xl font-bold text-[#DE9316] opacity-100 [text-shadow:2px_2px_0_#DE9316] sm:[text-shadow:3px_3px_0_#DE9316]">
+                  $20,000
+                </span>
+
+                <!-- Gradient text layer -->
+                <span class="relative text-2xl sm:text-4xl font-bold bg-gold-gradient bg-clip-text text-transparent">
+                  $20,000
+                </span>
               </div>
+
+
+
+
+
             </div>
           </div>
           <!-- User Card -->
           <div class="w-full">
-            <div class="relative w-full mb-16">
+            <div class="relative w-full mb-12">
               <!-- nameplate -->
               <div class="w-full flex ">
                 <img src="../../assets/images/name-banner.svg"
@@ -139,7 +152,7 @@
                 </div>
 
                 <!-- Lucky Draw -->
-                <div class="text-center text-green-700 text-xs sm:text-sm mb-8 underline font-vietnam">
+                <div class="text-center text-[#53b76b] text-xs sm:text-sm mb-8 underline font-vietnam">
                   Luckly Draw: 3 Chances
                 </div>
 
@@ -147,7 +160,7 @@
                 <div class="divider-horizontal-special w-full mb-4"></div>
 
                 <!-- Leaderboard Links -->
-                <div class="flex flex-row justify-between items-center space-x-4 py-2 font-poppins">
+                <div class="flex flex-row justify-between items-center space-x-4 py-1 font-poppins">
                   <button class="flex items-center text-white text-xs sm:text-sm md:text-base">
                     <span class="mr-2 text-xs sm:text-sm"><img src="../../assets/images/leaderboard-icon.svg"
                         alt=""></span> GO Leaderboard
@@ -165,7 +178,7 @@
 
             <!-- Progress Bar -->
 
-            <div class="w-full relative h-8 mb-16">
+            <div class="w-full relative h-8 mb-4">
               <!-- Progress Bar Container -->
               <div class="relative bg-lime-gradient w-full shadow-inner h-7 z-30 rounded-lg p-[3px]">
                 <!-- Progress Bar Background -->
@@ -187,19 +200,21 @@
 
 
               <!-- Progress Trophy Icon -->
-              <div class="absolute -top-2.5 -left-6 z-50 ">
+              <div class="absolute -top-2.5 left-0 z-50 ">
 
+                <!-- hexagon -->
                 <img src="../../assets/images/Polygon 1.svg">
-
-                <!-- <div class="hexagon "></div> -->
                 <div class=" absolute top-1  left-0">
                   <img src="../../assets/images/coin.svg" alt="Trophy">
                 </div>
               </div>
-              <!-- Progress Markers -->
+
 
             </div>
+            <div class="w-ful text-center mb-6">
 
+              <span class="text-white  font-vietnam text-sm md:text-lg">Quiz Completed: 3</span>
+            </div>
             <!-- Start Quiz Button -->
             <div class="mb-12 flex justify-center ">
               <button
@@ -216,8 +231,9 @@
 
     </div>
     <!-- Footer -->
-    <footer class="w-full py-6">
-      <div class="text-xs sm:text-sm text-slate-300 flex flex-row justify-around items-center px-6 space-y-0">
+    <footer class="w-full pb-10">
+      <div
+        class="text-xs sm:text-sm text-slate-300 flex flex-row justify-around items-center px-6 space-y-0 font-poppoins">
         <button class="flex items-center">
           <span class="mr-2">♦</span> How to play?
         </button>
