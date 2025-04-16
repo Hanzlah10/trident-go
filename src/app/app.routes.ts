@@ -17,5 +17,9 @@ export const routes: Routes = [
   {
     path: 'leaderboard',
     loadComponent: () => import('./pages/leaderboard/leaderboard.page').then( m => m.LeaderboardPage)
+  },
+  {
+    path: 'quiz',
+    loadComponent: () => import('./pages/quiz/quiz.page').then( m => m.QuizPage)
   }
 ];
