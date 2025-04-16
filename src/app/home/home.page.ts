@@ -23,6 +23,6 @@ export class HomePage {
   }
   // total 120 is the score
   total: number = 120
-  userScore: number = 75
+  userScore: number = 69
   progress: number = (this.userScore / this.total) * 100;
 }

@@ -173,38 +173,45 @@
 
             <!-- Progress Bar -->
 
-            <div class="w-full relative h-8 mb-4">
-              <!-- Progress Bar Container -->
-              <div class="relative bg-lime-gradient w-full shadow-inner h-7 z-30 rounded-lg p-[3px]">
-                <!-- Progress Bar Background -->
-                <div class="bg-emerald-dark inset-0 w-full z-20  rounded-lg h-full"></div>
-                <!-- Progress Bar Fill -->
-                <div
-                  class="bg-pink-purple-gradient rounded-lg absolute top-1 left-0 h-5 transition-all duration-700 ease-in-out "
-                  [style.width.%]="progress">
-                </div>
-                <div class="absolute -top-1 left-1/4">
-                  <div class=" w-4 h-4 bg-mint-gradient bg-clip-text z-30 text-transparent">▼</div>
-                </div>
-                <div class="absolute bottom-0.5 left-2/4">
-                  <div class=" w-4 h-4 bg-mint-gradient-t  bg-clip-text z-30 text-transparent">▲</div>
-                </div>
-                <div class="absolute -top-1 left-3/4">
-                  <div class=" w-4 h-4 bg-mint-gradient bg-clip-text z-30 text-transparent">▼</div>
-                </div>
-              </div>
+            <div class="w-full relative  mb-4 flex items-center justify-center">
+              <!-- Polygon + Coin + Black Bar -->
+              <div class="-mr-3 relative z-40"> <!-- ← Polygon top -->
+                <img src="../../assets/images/Polygon 1.svg" class="relative z-40" alt="Polygon">
 
-              <!-- Progress Trophy Icon -->
-              <!-- hexagon -->
-              <div class="absolute -top-2.5 left-0 z-50 ">
-                <img src="../../assets/images/Polygon 1.svg">
-                <div class=" absolute top-1  left-0">
+                <!-- Coin Icon -->
+                <div class="absolute top-1 left-0 z-40">
                   <img src="../../assets/images/coin.svg" alt="Trophy">
                 </div>
+
+                <!-- Black Bar BELOW polygon -->
+                <div class="absolute top-2.5 -right-[3px] z-20">
+                  <div class="h-7 my-auto w-3 bg-black opacity-45 rounded-r-lg"></div>
+                </div>
               </div>
 
+              <!-- Progress Bar -->
+              <div class="relative bg-lime-gradient w-full shadow-inner h-7 z-10 rounded-lg p-[3px] overflow-hidden">
+                <!-- Progress Background -->
+                <div class="bg-emerald-dark w-full z-10 rounded-lg h-full"></div>
 
+                <!-- Progress Fill -->
+                <div
+                  class="bg-pink-purple-gradient rounded-lg absolute ml-1 top-1 left-0 h-5 transition-all duration-700 ease-in-out"
+                  [style.width.%]="progress"></div>
+
+                <!-- Arrow Markers -->
+                <div class="absolute -top-1 left-1/4 z-20">
+                  <div class="w-4 h-4 bg-mint-gradient bg-clip-text text-transparent">▼</div>
+                </div>
+                <div class="absolute bottom-0.5 left-2/4 z-20">
+                  <div class="w-4 h-4 bg-mint-gradient-t bg-clip-text text-transparent">▲</div>
+                </div>
+                <div class="absolute -top-1 left-3/4 z-20">
+                  <div class="w-4 h-4 bg-mint-gradient bg-clip-text text-transparent">▼</div>
+                </div>
+              </div>
             </div>
+
             <div class="w-ful text-center mb-6">
 
               <span class="text-white  font-vietnam text-sm md:text-lg">Quiz Completed: 3</span>
