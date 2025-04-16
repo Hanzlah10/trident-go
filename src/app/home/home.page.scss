@@ -25,3 +25,49 @@
 #container a {
   text-decoration: none;
 }
+
+.divider-vertical {
+  width: 2px;
+  height: 40px;
+  background: linear-gradient(
+    180deg,
+    rgba(78, 78, 84, 0) 0%,
+    #adadba 45%,
+    rgba(78, 78, 84, 0) 99%
+  );
+}
+
+.divider-horizontal-left {
+  background: linear-gradient(
+    to left,
+    rgb(249, 247, 247),
+    rgba(255, 215, 0, 0.3),
+    rgba(0, 0, 0, 0)
+  );
+  height: 2px;
+}
+
+.divider-horizontal-right {
+  background: linear-gradient(
+    to right,
+    rgb(249, 247, 247),
+    rgba(255, 215, 0, 0.3),
+    rgba(0, 0, 0, 0)
+  );
+  height: 2px;
+}
+
+.divider-horizontal-special {
+  height: 1px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #4e4e54,
+    #4e4e54 6px,
+    transparent 4px,
+    transparent 10px,
+    #4e4e54 10px,
+    #4e4e54 12px,
+    transparent 12px,
+    transparent 18px
+  );
+}
