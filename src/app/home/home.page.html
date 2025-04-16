@@ -68,14 +68,15 @@
                   Tridentity GO
                 </span>
               </div>
-              <div class="text-sm text-slate-400">Jun 21, 2025 - Jul 21, 2025</div>
+              <div class="text-sm text-slate-400">Jun 15, 2025 - Aug 31, 2025</div>
             </div>
 
             <!-- Right Section -->
-            <div class="flex flex-col items-end text-yellow-400 font-vietnam text-right">
+            <div class="flex flex-col items-end text-gold font-vietnam text-right">
               <div class="text-sm ">Golden Price worth</div>
-              <div class="text-2xl sm:text-4xl font-bold text-yellow-500 text-shadow-yellow-200 text-shadow-lg">
-                $60,000
+              <div
+                class="text-2xl sm:text-4xl font-bold bg-gold-gradient bg-clip-text text-transparent text-shadow-yellow-200 text-shadow-3xl">
+                $20,000
               </div>
             </div>
           </div>
@@ -90,7 +91,9 @@
                 <span
                   class="absolute -top-2.5 sm:-top-[15px] left-1/2 -translate-x-1/2 z-10 flex items-center justify-between w-60 sm:w-80 text-yellow-400">
                   <span class=" text-xs md:text-base ml-4 sm:ml-5">◆</span>
-                  <span class="uppercase font-semibold sm:text-lg text-sm font-vietnam"> Brooklyn
+                  <span
+                    class="uppercase bg-gold-gradient bg-clip-text text-transparent font-semibold sm:text-lg text-sm font-vietnam">
+                    Brooklyn
                     Simmons</span>
                   <span class=" text-xs md:text-base mr-4 sm:mr-5">◆</span>
                 </span>
@@ -99,7 +102,7 @@
 
               <!-- Main Card -->
               <div
-                class="border border-sm drop-shadow rounded-2xl border-gray-500 bg-black bg-opacity-5 w-full pt-6 sm:pt-8 pb-2 px-4 sm:px-6">
+                class="border border-sm shadow-lg shadow-black  rounded-2xl border-gray-500 bg-black bg-opacity-5 w-full pt-6 sm:pt-8 pb-2 px-4 sm:px-6">
                 <!-- User ID -->
                 <div class="text-center font-vietnam text-gray-500  text-xs sm:text-sm mb-6">
                   0xca625130b10cb7b9d
@@ -145,14 +148,14 @@
 
                 <!-- Leaderboard Links -->
                 <div class="flex flex-row justify-between items-center space-x-4 py-2 font-poppins">
-                  <button class="flex items-center text-yellow-400 text-xs sm:text-sm md:text-base">
+                  <button class="flex items-center text-white text-xs sm:text-sm md:text-base">
                     <span class="mr-2 text-xs sm:text-sm"><img src="../../assets/images/leaderboard-icon.svg"
                         alt=""></span> GO Leaderboard
                   </button>
 
                   <div class="block divider-vertical"></div>
 
-                  <button class="flex items-center text-yellow-400 text-xs sm:text-sm md:text-base">
+                  <button class="flex items-center text-gold text-xs sm:text-sm md:text-base">
                     <span class="mr-2 text-xs sm:text-sm "><img src="../../assets/images/grand-leaderboard.svg"
                         alt=""></span> Grand Leaderboard
                   </button>
@@ -164,41 +167,43 @@
 
             <div class="w-full relative h-8 mb-16">
               <!-- Progress Bar Container -->
-              <div class="relative border-4 border-[#F6F5AA] w-full shadow-inner  h-full z-10 rounded-lg ">
+              <div class="relative bg-lime-gradient w-full shadow-inner h-7 z-30 rounded-lg p-[3px]">
+                <!-- Progress Bar Background -->
+                <div class="bg-emerald-dark inset-0 w-full z-20  rounded-lg h-full"></div>
+                <!-- Progress Bar Fill -->
+                <div class="bg-pink-purple-gradient rounded-r-3xl absolute top-1 left-0 h-5   w-3/5">
+                </div>
+                <div class="absolute -top-1 left-1/4">
+                  <div class=" w-4 h-4 bg-mint-gradient bg-clip-text z-30 text-transparent">▼</div>
+                </div>
+                <div class="absolute bottom-0.5 left-2/4">
+                  <div class=" w-4 h-4 bg-mint-gradient-t  bg-clip-text z-30 text-transparent">▲</div>
+                </div>
+                <div class="absolute -top-1 left-3/4">
+                  <div class=" w-4 h-4 bg-mint-gradient bg-clip-text z-30 text-transparent">▼</div>
+                </div>
               </div>
 
-              <!-- Progress Bar Fill -->
-              <div class="progress-bar-fill absolute top-0 left-0 h-full z-0  w-2/5"></div>
+
 
               <!-- Progress Trophy Icon -->
-              <div class="absolute -top-4 -left-6 z-10 ">
-                <div class="hexagon-shape pos">
-                </div>
+              <div class="absolute -top-2.5 -left-6 z-50 ">
+
+                <img src="../../assets/images/Polygon 1.svg">
+
                 <!-- <div class="hexagon "></div> -->
-                <img src="../../assets/images/Polygon 1.svg" class=" pos-hexagon">
-                <div class=" coin-image">
-
-                  <img src="../../assets/images/coin.svg" alt="Trophy" class="pos-img">
+                <div class=" absolute top-1  left-0">
+                  <img src="../../assets/images/coin.svg" alt="Trophy">
                 </div>
               </div>
-
-
               <!-- Progress Markers -->
-              <div class="absolute -top-1 left-1/4">
-                <div class=" w-4 h-4 text-[#F6F5AA] ">▼</div>
-              </div>
-              <div class="absolute bottom-1 left-2/4">
-                <div class=" w-4 h-4 text-[#F6F5AA] ">▲</div>
-              </div>
-              <div class="absolute -top-1 left-3/4">
-                <div class=" w-4 h-4 text-[#F6F5AA] ">▼</div>
-              </div>
+
             </div>
 
             <!-- Start Quiz Button -->
             <div class="mb-12 flex justify-center ">
               <button
-                class="bg-[url('/assets/images/quizbutton.svg')] bg-cover bg-center bg-no-repeat  w-[291px] h-[68px] border-none p-0"
+                class="bg-[url('/assets/images/quizbutton.svg')] bg-cover bg-center bg-no-repeat  w-[291px] h-[68px] border-none p-0 hover:scale-110 transition-all duration-500"
                 style="background-size: contain;">
               </button>
             </div>
