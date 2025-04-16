@@ -10,7 +10,19 @@ import { RouterLink } from '@angular/router';
   imports: [IonContent, NavbarComponent, RouterLink],
 
 })
-export class HomePage {
-  constructor() { }
 
+export class HomePage {
+
+  constructor() {
+    // setInterval(() => {
+    //   if (this.userScore < this.total) {
+    //     this.userScore += 5; // or any step size
+    //     this.progress = (this.userScore / this.total) * 100;
+    //   }
+    // }, 1000);
+  }
+  // total 120 is the score
+  total: number = 120
+  userScore: number = 75
+  progress: number = (this.userScore / this.total) * 100;
 }

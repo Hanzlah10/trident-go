@@ -179,7 +179,9 @@
                 <!-- Progress Bar Background -->
                 <div class="bg-emerald-dark inset-0 w-full z-20  rounded-lg h-full"></div>
                 <!-- Progress Bar Fill -->
-                <div class="bg-pink-purple-gradient rounded-r-3xl absolute top-1 left-0 h-5   w-3/5">
+                <div
+                  class="bg-pink-purple-gradient rounded-lg absolute top-1 left-0 h-5 transition-all duration-700 ease-in-out "
+                  [style.width.%]="progress">
                 </div>
                 <div class="absolute -top-1 left-1/4">
                   <div class=" w-4 h-4 bg-mint-gradient bg-clip-text z-30 text-transparent">▼</div>
@@ -192,12 +194,9 @@
                 </div>
               </div>
 
-
-
               <!-- Progress Trophy Icon -->
+              <!-- hexagon -->
               <div class="absolute -top-2.5 left-0 z-50 ">
-
-                <!-- hexagon -->
                 <img src="../../assets/images/Polygon 1.svg">
                 <div class=" absolute top-1  left-0">
                   <img src="../../assets/images/coin.svg" alt="Trophy">
