@@ -10,7 +10,8 @@ module.exports = {
         poppins: ['"Poppins"', 'sans-serif'],
       },
       colors: {
-        'gold': '#EAC96F'
+        'gold': '#EAC96F',
+        'peach-yellow': '#FDCD9D'
       }
     },
     backgroundImage: {
@@ -48,6 +49,7 @@ module.exports = {
         )`,
       'lime-gradient': 'linear-gradient(to bottom, #F8FFBA 0%, #ECFF4F 42%, #D0E050 100%)',
       'emerald-dark': 'linear-gradient(90deg, #152B29 0%, #134C3C 47%, #152B29 100%)',
+      'peach-yellow-gradient': 'linear-gradient(to bottom right, #FDCD9D, #F7EF82)',
     }
   },
   plugins: [],
