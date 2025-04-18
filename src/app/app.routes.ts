@@ -12,14 +12,14 @@ export const routes: Routes = [
   },
   {
     path: 'quiz',
-    loadComponent: () => import('./pages/quiz/quiz.page').then( m => m.QuizPage)
+    loadComponent: () => import('./pages/quiz/quiz.page').then(m => m.QuizPage)
   },
   {
-    path: 'leaderboard',
-    loadComponent: () => import('./pages/leaderboard/leaderboard.page').then( m => m.LeaderboardPage)
+    path: 'leaderboard/:type',
+    loadComponent: () => import('./pages/leaderboard/leaderboard.page').then(m => m.LeaderboardPage)
   },
   {
     path: 'quiz',
-    loadComponent: () => import('./pages/quiz/quiz.page').then( m => m.QuizPage)
+    loadComponent: () => import('./pages/quiz/quiz.page').then(m => m.QuizPage)
   }
 ];

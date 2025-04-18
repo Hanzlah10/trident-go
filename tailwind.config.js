@@ -50,6 +50,7 @@ module.exports = {
       'lime-gradient': 'linear-gradient(to bottom, #F8FFBA 0%, #ECFF4F 42%, #D0E050 100%)',
       'emerald-dark': 'linear-gradient(90deg, #152B29 0%, #134C3C 47%, #152B29 100%)',
       'peach-yellow-gradient': 'linear-gradient(to bottom right, #FDCD9D, #F7EF82)',
+      'gray-gradient': 'linear-gradient(to left, #E9E9E9 100%, #D0D0D0 77%, #F5F5F5 40%, #AEAEAE 0%)',
     }
   },
   plugins: [],

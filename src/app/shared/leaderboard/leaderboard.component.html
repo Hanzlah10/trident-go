@@ -1,3 +1,174 @@
-<p>
-  leaderboard works!
-</p>
+<div class="w-full px-8 sm:px-0 sm:w-[600px] mx-auto flex flex-col items-center font-vietnam space-y-8">
+  <div class="relative w-full mt-6 sm:mt-0 ">
+    <img src="../../../assets/images/name-banner.svg" class="mx-auto h-12" alt="banner">
+    <span
+      class="absolute top-[13px] sm:top-[9px] left-1/2 -translate-x-1/2 z-10 flex items-center justify-between w-60 sm:w-80 bg-gray-gradient bg-clip-text text-transparent">
+      <span class="text-xs md:text-base ml-4 sm:ml-5">◆</span>
+      <span
+        class="px-2 uppercase font-semibold sm:text-lg text-sm font-vietnam overflow-hidden text-ellipsis whitespace-nowrap  ">
+        {{type}} Leaderboard
+      </span>
+      <span class="text-xs md:text-base mr-4 sm:mr-5">◆</span>
+    </span>
+  </div>
+  <!-- prize worth -->
+  <div class="flex flex-col items-center text-gold font-vietnam ">
+    <div class="text-sm ">Prize worth</div>
+    <div class="relative inline-block">
+      <!-- Shadow layer -->
+      <span
+        class="absolute inset-0 text-2xl sm:text-4xl font-bold text-[#DE9316] opacity-100 [text-shadow:2px_2px_0_#DE9316] sm:[text-shadow:3px_3px_0_#DE9316]">
+        ${{prizeWorth}}
+      </span>
+
+      <!-- Gradient text layer -->
+      <span class="relative text-2xl sm:text-4xl font-bold bg-gold-gradient bg-clip-text text-transparent">
+        ${{prizeWorth}}
+      </span>
+    </div>
+  </div>
+  <!-- leaderboard -->
+  <div class="w-full flex flex-col space-y-4">
+    <!-- member row -->
+    <div
+      class="h-16 border border-sm shadow-lg shadow-black  rounded-2xl border-gray-500 bg-black/[48%] w-full  flex justify-start items-center px-5 space-x-4 font-vietnam">
+      <div class="flex  justify-center items-center w-10 h-10 bg-[url('/assets/images/first.svg')] bg-cover bg-center">
+        <!-- <span class="text-xs bg-white">1</span> -->
+      </div>
+      <div class="flex flex-col">
+        <div>
+          <span class="text-sm text-white">MembershipID</span>
+        </div>
+        <div>
+          <span class="text-xs text-gray-500">Jun 21, 2025 - 06:28</span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="h-16 border border-sm shadow-lg shadow-black  rounded-2xl border-gray-500 bg-black/[48%] w-full  flex justify-start items-center px-5 space-x-4 font-vietnam">
+      <div class="flex  justify-center items-center w-10 h-10 bg-[url('/assets/images/second.svg')] bg-cover bg-center">
+
+      </div>
+      <div class="flex flex-col">
+        <div>
+          <span class="text-sm text-white">MembershipID</span>
+        </div>
+        <div>
+          <span class="text-xs text-gray-500">Jun 21, 2025 - 06:28</span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="h-16 border border-sm shadow-lg shadow-black  rounded-2xl border-gray-500 bg-black/[48%] w-full  flex justify-start items-center px-5 space-x-4 font-vietnam">
+      <div class="flex  justify-center items-center w-10 h-10 bg-[url('/assets/images/third.svg')] bg-cover bg-center">
+
+      </div>
+      <div class="flex flex-col">
+        <div>
+          <span class="text-sm text-white">MembershipID</span>
+        </div>
+        <div>
+          <span class="text-xs text-gray-500">Jun 21, 2025 - 06:28</span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="h-16 border-2 shadow-lg shadow-black  rounded-2xl border-gold border-grad bg-black/[48%] w-full  flex justify-start items-center px-5 space-x-4 font-vietnam">
+      <div class="flex  justify-center items-center w-10 h-10">
+        <span class="text-xs ">4</span>
+      </div>
+      <div class="flex flex-col">
+        <div>
+          <span class="text-sm text-white">MembershipID</span>
+        </div>
+        <div>
+          <span class="text-xs text-gray-500">Jun 21, 2025 - 06:28</span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="h-16 border border-sm shadow-lg shadow-black  rounded-2xl border-gray-500 bg-black/[48%] w-full  flex justify-start items-center px-5 space-x-4 font-vietnam">
+      <div class="flex  justify-center items-center w-10 h-10">
+        <span class="text-xs ">5</span>
+      </div>
+      <div class="flex flex-col">
+        <div>
+          <span class="text-sm text-white">MembershipID</span>
+        </div>
+        <div>
+          <span class="text-xs text-gray-500">Jun 21, 2025 - 06:28</span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="h-16 border border-sm shadow-lg shadow-black  rounded-2xl border-gray-500 bg-black/[48%] w-full  flex justify-start items-center px-5 space-x-4 font-vietnam">
+      <div class="flex  justify-center items-center w-10 h-10">
+        <span class="text-xs ">6</span>
+      </div>
+      <div class="flex flex-col">
+        <div>
+          <span class="text-sm text-white">MembershipID</span>
+        </div>
+        <div>
+          <span class="text-xs text-gray-500">Jun 21, 2025 - 06:28</span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="h-16 border border-sm shadow-lg shadow-black  rounded-2xl border-gray-500 bg-black/[48%] w-full  flex justify-start items-center px-5 space-x-4 font-vietnam">
+      <div class="flex  justify-center items-center w-10 h-10">
+        <span class="text-xs ">7</span>
+      </div>
+      <div class="flex flex-col">
+        <div>
+          <span class="text-sm text-white">MembershipID</span>
+        </div>
+        <div>
+          <span class="text-xs text-gray-500">Jun 21, 2025 - 06:28</span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="h-16 border border-sm shadow-lg shadow-black  rounded-2xl border-gray-500 bg-black/[48%] w-full  flex justify-start items-center px-5 space-x-4 font-vietnam">
+      <div class="flex  justify-center items-center w-10 h-10">
+        <span class="text-xs ">8</span>
+      </div>
+      <div class="flex flex-col">
+        <div>
+          <span class="text-sm text-white">MembershipID</span>
+        </div>
+        <div>
+          <span class="text-xs text-gray-500">Jun 21, 2025 - 06:28</span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="h-16 border border-sm shadow-lg shadow-black  rounded-2xl border-gray-500 bg-black/[48%] w-full  flex justify-start items-center px-5 space-x-4 font-vietnam">
+      <div class="flex  justify-center items-center w-10 h-10">
+        <span class="text-xs ">9</span>
+      </div>
+      <div class="flex flex-col">
+        <div>
+          <span class="text-sm text-white">MembershipID</span>
+        </div>
+        <div>
+          <span class="text-xs text-gray-500">Jun 21, 2025 - 06:28</span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="h-16 border border-sm shadow-lg shadow-black  rounded-2xl border-gray-500 bg-black/[48%] w-full  flex justify-start items-center px-5 space-x-4 font-vietnam">
+      <div class="flex  justify-center items-center w-10 h-10">
+        <span class="text-xs ">10</span>
+      </div>
+      <div class="flex flex-col">
+        <div>
+          <span class="text-sm text-white">MembershipID</span>
+        </div>
+        <div>
+          <span class="text-xs text-gray-500">Jun 21, 2025 - 06:28</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
