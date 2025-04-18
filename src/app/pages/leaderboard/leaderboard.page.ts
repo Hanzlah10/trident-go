@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonContent } from '@ionic/angular/standalone';
-import { NavbarComponent } from 'src/app/components/navbar/navbar.component';
+import { NavbarComponent } from 'src/app/shared/navbar/navbar.component';
 
 
 @Component({

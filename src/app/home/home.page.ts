@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
-import { NavbarComponent } from '../components/navbar/navbar.component';
+import { NavbarComponent } from '../shared/navbar/navbar.component';
 import { RouterLink } from '@angular/router';
 
 @Component({
